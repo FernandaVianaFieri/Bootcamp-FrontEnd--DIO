@@ -1,0 +1,7 @@
+desafio.txt
+Faça um programa para calcular o valor de uma viagem
+Voccê terá 3 variáveis, são elas:
+1 - preço do combustivel
+2- Gasto médio de combustivel gasto por KM
+3- Distância em KM da viagem
+Imprima o valor  que será gasto em  combustivel na viagem
