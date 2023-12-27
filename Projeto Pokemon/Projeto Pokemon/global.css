@@ -1,0 +1,63 @@
+*{
+    font-family: 'Roboto', sans-serif;
+	box-sizing:border-box;
+	
+}
+	h1{
+	color: #4682B4;
+	margin: 1rem;
+	}
+	
+	h1:hover{
+	color:#8B008B;	
+	}
+	
+a:visited {
+  color: #48D1CC;
+}
+
+a:hover {
+  color:yellow;
+}
+	
+		
+.content{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    background-color: #fff;
+	
+	
+.content descricao{
+	margin: 2rem;
+}
+
+ol.pokemons{
+	
+	display:grid;
+	grid-template-columns:1fr 1fr;	
+    padding: 1x 1px;
+    list-style: none;
+	margin:0;
+	
+}
+
+ol.pokemons li{
+	display:flex;
+	flex-direction:columns;
+	margin: 1px;
+	padding: 1rem;
+	border-radius: 1rem;
+	background-color:#14A06f;
+		
+}
+
+ol. pokemons li img{
+	max-width:100%;
+	high:100%;
+	align-self: self-end;
+	margin:0;
+		
+}
+
+

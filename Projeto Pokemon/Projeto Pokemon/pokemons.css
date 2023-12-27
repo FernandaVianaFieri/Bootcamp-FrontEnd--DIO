@@ -1,0 +1,56 @@
+
+.{
+	margin:0;
+	padding:0;
+	box-size:border-box;
+	
+}
+ h1{
+	color: #8B008B;
+	margin: 1rem;
+	font-size:45px;
+	
+	
+	}
+	
+	h1:hover{
+	color:yellow;	
+	
+		}
+	
+	h2{
+		color:#8B008B;
+	}
+	h2:hover{
+		color:yellow;
+	}
+	
+
+body{
+	font-size:20px;
+	color:#F5FFFA;
+	margin:2rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height: 90vh;
+	background:linear-gradient(90deg,#8FBC8F, #2E8B57,#3CB371);
+	
+}
+.img{
+	display:flex;
+	justify-content:center;
+	width:350px
+	height:200px;
+	position: relative;
+	borde-radius:20px;
+	box-shadow:0px3 5px 20px rgb(0,0,0,0.15);
+	transition:0.5s;
+}
+
+img:hover {
+  transform: scale(1.1);
+  opacity: 0.5;
+  
+}
+
